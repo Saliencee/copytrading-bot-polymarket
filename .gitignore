@@ -1,0 +1,33 @@
+# Build artifacts - these should be uploaded as release assets
+Forseen-*.zip
+Forseen-*.dmg
+Forseen-*.exe
+Forseen-*.AppImage
+
+# Build directories
+dist/
+build/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
